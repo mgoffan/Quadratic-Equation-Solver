@@ -1,0 +1,318 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5B2A36B4140C6492000F92F1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B2A36B3140C6492000F92F1 /* UIKit.framework */; };
+		5B2A36B6140C6492000F92F1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B2A36B5140C6492000F92F1 /* Foundation.framework */; };
+		5B2A36B8140C6492000F92F1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B2A36B7140C6492000F92F1 /* CoreGraphics.framework */; };
+		5B2A36BE140C6492000F92F1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5B2A36BC140C6492000F92F1 /* InfoPlist.strings */; };
+		5B2A36C0140C6492000F92F1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B2A36BF140C6492000F92F1 /* main.m */; };
+		5B2A36C4140C6492000F92F1 /* Quadratic_Equation_SolverAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B2A36C3140C6492000F92F1 /* Quadratic_Equation_SolverAppDelegate.m */; };
+		5B2A36C6140C6492000F92F1 /* Quadratic_Equation_SolverViewController.h in Resources */ = {isa = PBXBuildFile; fileRef = 5B2A36C5140C6492000F92F1 /* Quadratic_Equation_SolverViewController.h */; };
+		5B2A36C8140C6492000F92F1 /* Quadratic_Equation_SolverViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B2A36C7140C6492000F92F1 /* Quadratic_Equation_SolverViewController.m */; };
+		5B2A36CB140C6492000F92F1 /* Quadratic_Equation_SolverViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5B2A36C9140C6492000F92F1 /* Quadratic_Equation_SolverViewController_iPhone.xib */; };
+		5B2A36CE140C6492000F92F1 /* Quadratic_Equation_SolverViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5B2A36CC140C6492000F92F1 /* Quadratic_Equation_SolverViewController_iPad.xib */; };
+		5B2A36D6140C64E4000F92F1 /* MainWindow_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5B2A36D5140C64E4000F92F1 /* MainWindow_iPad.xib */; };
+		5B2A36D8140C64FB000F92F1 /* MainWindow_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5B2A36D7140C64FB000F92F1 /* MainWindow_iPhone.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5B2A36AF140C6492000F92F1 /* Quadratic Equation Solver.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Quadratic Equation Solver.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B2A36B3140C6492000F92F1 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		5B2A36B5140C6492000F92F1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		5B2A36B7140C6492000F92F1 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		5B2A36BB140C6492000F92F1 /* Quadratic Equation Solver-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Quadratic Equation Solver-Info.plist"; sourceTree = "<group>"; };
+		5B2A36BD140C6492000F92F1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5B2A36BF140C6492000F92F1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5B2A36C1140C6492000F92F1 /* Quadratic Equation Solver-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Quadratic Equation Solver-Prefix.pch"; sourceTree = "<group>"; };
+		5B2A36C2140C6492000F92F1 /* Quadratic_Equation_SolverAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Quadratic_Equation_SolverAppDelegate.h; sourceTree = "<group>"; };
+		5B2A36C3140C6492000F92F1 /* Quadratic_Equation_SolverAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Quadratic_Equation_SolverAppDelegate.m; sourceTree = "<group>"; };
+		5B2A36C5140C6492000F92F1 /* Quadratic_Equation_SolverViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Quadratic_Equation_SolverViewController.h; sourceTree = "<group>"; };
+		5B2A36C7140C6492000F92F1 /* Quadratic_Equation_SolverViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Quadratic_Equation_SolverViewController.m; sourceTree = "<group>"; };
+		5B2A36CA140C6492000F92F1 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/Quadratic_Equation_SolverViewController_iPhone.xib; sourceTree = "<group>"; };
+		5B2A36CD140C6492000F92F1 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/Quadratic_Equation_SolverViewController_iPad.xib; sourceTree = "<group>"; };
+		5B2A36D5140C64E4000F92F1 /* MainWindow_iPad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainWindow_iPad.xib; sourceTree = "<group>"; };
+		5B2A36D7140C64FB000F92F1 /* MainWindow_iPhone.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainWindow_iPhone.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5B2A36AC140C6492000F92F1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B2A36B4140C6492000F92F1 /* UIKit.framework in Frameworks */,
+				5B2A36B6140C6492000F92F1 /* Foundation.framework in Frameworks */,
+				5B2A36B8140C6492000F92F1 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5B2A36A4140C6492000F92F1 = {
+			isa = PBXGroup;
+			children = (
+				5B2A36B9140C6492000F92F1 /* Quadratic Equation Solver */,
+				5B2A36B2140C6492000F92F1 /* Frameworks */,
+				5B2A36B0140C6492000F92F1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5B2A36B0140C6492000F92F1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5B2A36AF140C6492000F92F1 /* Quadratic Equation Solver.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5B2A36B2140C6492000F92F1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5B2A36B3140C6492000F92F1 /* UIKit.framework */,
+				5B2A36B5140C6492000F92F1 /* Foundation.framework */,
+				5B2A36B7140C6492000F92F1 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5B2A36B9140C6492000F92F1 /* Quadratic Equation Solver */ = {
+			isa = PBXGroup;
+			children = (
+				5B2A36C2140C6492000F92F1 /* Quadratic_Equation_SolverAppDelegate.h */,
+				5B2A36C3140C6492000F92F1 /* Quadratic_Equation_SolverAppDelegate.m */,
+				5B2A36C5140C6492000F92F1 /* Quadratic_Equation_SolverViewController.h */,
+				5B2A36C7140C6492000F92F1 /* Quadratic_Equation_SolverViewController.m */,
+				5B2A36D4140C64A3000F92F1 /* New Group */,
+				5B2A36BA140C6492000F92F1 /* Supporting Files */,
+			);
+			path = "Quadratic Equation Solver";
+			sourceTree = "<group>";
+		};
+		5B2A36BA140C6492000F92F1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5B2A36BB140C6492000F92F1 /* Quadratic Equation Solver-Info.plist */,
+				5B2A36BC140C6492000F92F1 /* InfoPlist.strings */,
+				5B2A36BF140C6492000F92F1 /* main.m */,
+				5B2A36C1140C6492000F92F1 /* Quadratic Equation Solver-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5B2A36D4140C64A3000F92F1 /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+				5B2A36C9140C6492000F92F1 /* Quadratic_Equation_SolverViewController_iPhone.xib */,
+				5B2A36CC140C6492000F92F1 /* Quadratic_Equation_SolverViewController_iPad.xib */,
+				5B2A36D5140C64E4000F92F1 /* MainWindow_iPad.xib */,
+				5B2A36D7140C64FB000F92F1 /* MainWindow_iPhone.xib */,
+			);
+			name = "New Group";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5B2A36AE140C6492000F92F1 /* Quadratic Equation Solver */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5B2A36D1140C6492000F92F1 /* Build configuration list for PBXNativeTarget "Quadratic Equation Solver" */;
+			buildPhases = (
+				5B2A36AB140C6492000F92F1 /* Sources */,
+				5B2A36AC140C6492000F92F1 /* Frameworks */,
+				5B2A36AD140C6492000F92F1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Quadratic Equation Solver";
+			productName = "Quadratic Equation Solver";
+			productReference = 5B2A36AF140C6492000F92F1 /* Quadratic Equation Solver.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5B2A36A6140C6492000F92F1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 5B2A36A9140C6492000F92F1 /* Build configuration list for PBXProject "Quadratic Equation Solver" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 5B2A36A4140C6492000F92F1;
+			productRefGroup = 5B2A36B0140C6492000F92F1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5B2A36AE140C6492000F92F1 /* Quadratic Equation Solver */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5B2A36AD140C6492000F92F1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B2A36BE140C6492000F92F1 /* InfoPlist.strings in Resources */,
+				5B2A36C6140C6492000F92F1 /* Quadratic_Equation_SolverViewController.h in Resources */,
+				5B2A36CB140C6492000F92F1 /* Quadratic_Equation_SolverViewController_iPhone.xib in Resources */,
+				5B2A36CE140C6492000F92F1 /* Quadratic_Equation_SolverViewController_iPad.xib in Resources */,
+				5B2A36D6140C64E4000F92F1 /* MainWindow_iPad.xib in Resources */,
+				5B2A36D8140C64FB000F92F1 /* MainWindow_iPhone.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5B2A36AB140C6492000F92F1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B2A36C0140C6492000F92F1 /* main.m in Sources */,
+				5B2A36C4140C6492000F92F1 /* Quadratic_Equation_SolverAppDelegate.m in Sources */,
+				5B2A36C8140C6492000F92F1 /* Quadratic_Equation_SolverViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5B2A36BC140C6492000F92F1 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5B2A36BD140C6492000F92F1 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		5B2A36C9140C6492000F92F1 /* Quadratic_Equation_SolverViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5B2A36CA140C6492000F92F1 /* en */,
+			);
+			name = Quadratic_Equation_SolverViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		5B2A36CC140C6492000F92F1 /* Quadratic_Equation_SolverViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5B2A36CD140C6492000F92F1 /* en */,
+			);
+			name = Quadratic_Equation_SolverViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5B2A36CF140C6492000F92F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = NO;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5B2A36D0140C6492000F92F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = NO;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5B2A36D2140C6492000F92F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Quadratic Equation Solver/Quadratic Equation Solver-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INFOPLIST_FILE = "Quadratic Equation Solver/Quadratic Equation Solver-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		5B2A36D3140C6492000F92F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Quadratic Equation Solver/Quadratic Equation Solver-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INFOPLIST_FILE = "Quadratic Equation Solver/Quadratic Equation Solver-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5B2A36A9140C6492000F92F1 /* Build configuration list for PBXProject "Quadratic Equation Solver" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B2A36CF140C6492000F92F1 /* Debug */,
+				5B2A36D0140C6492000F92F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5B2A36D1140C6492000F92F1 /* Build configuration list for PBXNativeTarget "Quadratic Equation Solver" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B2A36D2140C6492000F92F1 /* Debug */,
+				5B2A36D3140C6492000F92F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5B2A36A6140C6492000F92F1 /* Project object */;
+}
